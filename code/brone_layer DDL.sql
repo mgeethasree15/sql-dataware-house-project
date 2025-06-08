@@ -1,12 +1,11 @@
 
-*/
+/*
 --------------------------------------------------------------------------------------------------
-    
     DDL - Data definition Language - with DDL we create the bronze layers.
     This script will run the following code and will create the tables for the bronze layer.
     and drops the tables if already exists.
 --------------------------------------------------------------------------------------------------
-
+*/
 
 -- Stored procedure for bronze layer
 DROP PROCEDURE IF EXISTS bronze.load_info;
