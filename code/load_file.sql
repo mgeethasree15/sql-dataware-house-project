@@ -8,6 +8,8 @@ Script: This store procedure stores the loaded data in it.
         copys the path file to import the data into tables.
         using "LOAD DATA FILE" Query.
 Calling store procedure using function CALL bronze.load_info();
+
+no values can be inserted and created with in store procedure.
 -----------------------------------------------------------------
 */
 -- Start time
