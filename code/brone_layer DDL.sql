@@ -1,3 +1,4 @@
+
 -- Active: 1749332610776@@127.0.0.1@3306@bronze
 -- Stored procedure for bronze layer
 DROP PROCEDURE IF EXISTS bronze.load_info;
@@ -135,6 +136,3 @@ SELECT CONCAT('>> Load Duration: ', TIMESTAMPDIFF(SECOND, @start_time, @end_time
 
 
 CALL bronze.load_info();
-
-
-
